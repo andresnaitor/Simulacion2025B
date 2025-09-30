@@ -8,11 +8,7 @@ Contenidos
   - Continuas
  
 
-<img src="https://1.bp.blogspot.com/-Q_hnXmwz8WQ/XjtZyy7M38I/AAAAAAAAAOU/897yUtV601Enug3zgpechbxA_yM9U3_GwCLcBGAsYHQ/s1600/Capture%252B_2020-02-05-18-09-06-1.png"width="30px">
-
-![Modelización](https://1.bp.blogspot.com/-Q_hnXmwz8WQ/XjtZyy7M38I/AAAAAAAAAOU/897yUtV601Enug3zgpechbxA_yM9U3_GwCLcBGAsYHQ/s1600/Capture%252B_2020-02-05-18-09-06-1.png){width='100px'}
-
-
+<img src="https://th.bing.com/th/id/R.8aefbade080b7e633082a0ccd022b9d1?rik=s5xRn3Xe0nGICg&pid=ImgRaw&r=0" width="400px" alt="Introducción a la Simulación">
 
 LA ecuación de la energía es: $E=mc^2$, y puede cambiar el color $\textcolor{red}{E=mc^2}$
 
