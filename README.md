@@ -8,7 +8,11 @@ Contenidos
   - Continuas
  
 
-![Modelización](https://www.simwell.io/hubfs/Imported_Blog_Media/1*nNLRUcFSbnTvUfFvqsKO0w-2.png){width='100px'}
+<img src="https://1.bp.blogspot.com/-Q_hnXmwz8WQ/XjtZyy7M38I/AAAAAAAAAOU/897yUtV601Enug3zgpechbxA_yM9U3_GwCLcBGAsYHQ/s1600/Capture%252B_2020-02-05-18-09-06-1.png"width="30px">
+
+![Modelización](https://1.bp.blogspot.com/-Q_hnXmwz8WQ/XjtZyy7M38I/AAAAAAAAAOU/897yUtV601Enug3zgpechbxA_yM9U3_GwCLcBGAsYHQ/s1600/Capture%252B_2020-02-05-18-09-06-1.png){width='100px'}
+
+
 
 LA ecuación de la energía es: $E=mc^2$, y puede cambiar el color $\textcolor{red}{E=mc^2}$
 
