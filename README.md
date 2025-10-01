@@ -8,9 +8,11 @@ Contenidos
   - Continuas
  
 -Generación de Procesos Poisson
+
 -Movimiento Browniano
+
 -Black Scholes
--JEJEJEJEJEJEJEJEEJEJ
+
 
 
 <img src="https://th.bing.com/th/id/R.8aefbade080b7e633082a0ccd022b9d1?rik=s5xRn3Xe0nGICg&pid=ImgRaw&r=0" width="400px" alt="Introducción a la Simulación">
