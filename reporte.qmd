@@ -1,0 +1,60 @@
+---
+title: "Informe Estadístico"
+format: pdf
+execute:
+  echo: false
+params:
+  data_path: null
+  var_cual_param: null  
+  var_cuan1_param: null 
+  var_cuan2_param: null 
+  color_param: "blue"   
+---
+
+```{r}
+#| include: false
+library(tidyverse)
+library(readxl)
+library(kableExtra)
+library(formattable)
+datos <- readRDS(params$data_path)
+```
+
+## Análisis de la variable Dias de mora del credito
+
+A continuacion se muestra una descripcion de los datos de la variable para identificar el promedio de los dias de mora que se dan en los creditos que otorga la institucion
+
+```{r}
+# Seleccionar la variable
+dias_mora <- datos$DIAS_MORA_CRED_MICRO
+
+# Estadísticos descriptivos
+res_mora <- tibble(
+  Min = min(dias_mora, na.rm = TRUE),
+  Q1 = quantile(dias_mora, 0.25, na.rm = TRUE),
+  Mediana = median(dias_mora, na.rm = TRUE),
+  Media = mean(dias_mora, na.rm = TRUE),
+  Q3 = quantile(dias_mora, 0.75, na.rm = TRUE),
+  Max = max(dias_mora, na.rm = TRUE),
+  Desviación = sd(dias_mora, na.rm = TRUE)
+)
+
+res_mora %>%
+  kable(caption = "Estadísticos descriptivos de DIAS_MORA_CRED_MICRO") %>%
+  kable_paper(full_width = F, font_size = 16)
+```
+ 
+A continuacion se muestran los graficos para una mejor interpretacion de los graficos
+
+```{r}
+ggplot(datos, aes(x = DIAS_MORA_CRED_MICRO)) +
+geom_histogram(bins = 30, fill = colx, color = "black") +
+labs(title = "Histograma de días de mora", x = "Días de mora", y = "Frecuencia") +
+theme_minimal()
+
+ggplot(datos, aes(y = DIAS_MORA_CRED_MICRO)) +
+geom_boxplot(fill = colx, alpha = 0.7) +
+labs(title = "Boxplot de días de mora", y = "Días de mora") +
+theme_minimal()
+```
+
